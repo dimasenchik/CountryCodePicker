@@ -7,7 +7,7 @@
 
 import Foundation
 
-final class CountryCodeService {
+open class CountryCodeService {
     
     // MARK: - Public methods
     
@@ -21,6 +21,10 @@ final class CountryCodeService {
             }
         }
         return []
+    }
+    
+    static func getSpecificCode(isoCode: String? = nil, dialCode: String? = nil, id: Int? = nil) -> CountryCodeModel? {
+        return getCodes().first { $0.isoCode == isoCode || $0.dialCode == dialCode || $0.id == id }
     }
     
 }

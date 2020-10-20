@@ -15,11 +15,16 @@
 		661563E2253EC1840072748B /* CountryCodePickerAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 661563E1253EC1840072748B /* CountryCodePickerAssets.xcassets */; };
 		661563E6253EC2540072748B /* CountryCodePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661563E5253EC2540072748B /* CountryCodePickerController.swift */; };
 		661563E9253EC36D0072748B /* CodePickerUIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661563E8253EC36D0072748B /* CodePickerUIConfiguration.swift */; };
-		E466EB74DBA89B5530D0C3D9 /* Pods_CountryCodePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3764F4AEE09592D84E7A30B1 /* Pods_CountryCodePicker.framework */; };
+		66190FF9253ED4D700F3DBF4 /* CountryCodeCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66190FF8253ED4D700F3DBF4 /* CountryCodeCellProtocol.swift */; };
+		66190FFE253ED69E00F3DBF4 /* CountryCodeHeaderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66190FFD253ED69E00F3DBF4 /* CountryCodeHeaderProtocol.swift */; };
+		66191003253ED7D700F3DBF4 /* CountryCodeSearchBarProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66191002253ED7D700F3DBF4 /* CountryCodeSearchBarProtocol.swift */; };
+		66191008253ED8B700F3DBF4 /* CountryCodeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66191007253ED8B700F3DBF4 /* CountryCodeHeaderView.swift */; };
+		6619100D253EDDED00F3DBF4 /* CountryCodeSearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6619100C253EDDED00F3DBF4 /* CountryCodeSearchBarView.swift */; };
+		66191010253EEDA200F3DBF4 /* CountryCodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6619100F253EEDA200F3DBF4 /* CountryCodeTableViewCell.swift */; };
+		66191013253EFDA600F3DBF4 /* UITableViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66191012253EFDA600F3DBF4 /* UITableViewExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3764F4AEE09592D84E7A30B1 /* Pods_CountryCodePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CountryCodePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6610952E253EC51300E7B22F /* Typealiases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealiases.swift; sourceTree = "<group>"; };
 		661563BC253EBC480072748B /* CountryCodePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CountryCodePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		661563BF253EBC480072748B /* CountryCodePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountryCodePicker.h; sourceTree = "<group>"; };
@@ -30,6 +35,15 @@
 		661563E1253EC1840072748B /* CountryCodePickerAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CountryCodePickerAssets.xcassets; sourceTree = "<group>"; };
 		661563E5253EC2540072748B /* CountryCodePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCodePickerController.swift; sourceTree = "<group>"; };
 		661563E8253EC36D0072748B /* CodePickerUIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodePickerUIConfiguration.swift; sourceTree = "<group>"; };
+		66190FF8253ED4D700F3DBF4 /* CountryCodeCellProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCodeCellProtocol.swift; sourceTree = "<group>"; };
+		66190FFD253ED69E00F3DBF4 /* CountryCodeHeaderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCodeHeaderProtocol.swift; sourceTree = "<group>"; };
+		66191002253ED7D700F3DBF4 /* CountryCodeSearchBarProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCodeSearchBarProtocol.swift; sourceTree = "<group>"; };
+		66191007253ED8B700F3DBF4 /* CountryCodeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCodeHeaderView.swift; sourceTree = "<group>"; };
+		6619100C253EDDED00F3DBF4 /* CountryCodeSearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCodeSearchBarView.swift; sourceTree = "<group>"; };
+		6619100F253EEDA200F3DBF4 /* CountryCodeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCodeTableViewCell.swift; sourceTree = "<group>"; };
+		66191012253EFDA600F3DBF4 /* UITableViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtensions.swift; sourceTree = "<group>"; };
+		6619105C253F12C700F3DBF4 /* Pods_CountryCodePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_CountryCodePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6619105E253F12C700F3DBF4 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CC5F67413CF9E5123C9A16C /* Pods-CountryCodePicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountryCodePicker.debug.xcconfig"; path = "Target Support Files/Pods-CountryCodePicker/Pods-CountryCodePicker.debug.xcconfig"; sourceTree = "<group>"; };
 		C2EF87E02727F375CF9569E7 /* Pods-CountryCodePicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountryCodePicker.release.xcconfig"; path = "Target Support Files/Pods-CountryCodePicker/Pods-CountryCodePicker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -39,7 +53,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E466EB74DBA89B5530D0C3D9 /* Pods_CountryCodePicker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +80,7 @@
 		6610952B253EC4F600E7B22F /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				66191012253EFDA600F3DBF4 /* UITableViewExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -139,8 +153,9 @@
 		661563DE253EC0A30072748B /* CountryCodePickerController */ = {
 			isa = PBXGroup;
 			children = (
-				661563E0253EC0F10072748B /* Cells */,
 				661563DF253EC0EC0072748B /* Controller */,
+				66190FFC253ED68A00F3DBF4 /* Protocols */,
+				66190FFB253ED67C00F3DBF4 /* Views */,
 			);
 			path = CountryCodePickerController;
 			sourceTree = "<group>";
@@ -154,11 +169,12 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		661563E0253EC0F10072748B /* Cells */ = {
+		661563E0253EC0F10072748B /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				6619100F253EEDA200F3DBF4 /* CountryCodeTableViewCell.swift */,
 			);
-			path = Cells;
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		661563EB253EC3950072748B /* DesignKit */ = {
@@ -169,10 +185,47 @@
 			path = DesignKit;
 			sourceTree = "<group>";
 		};
+		66190FFB253ED67C00F3DBF4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				661563E0253EC0F10072748B /* Cell */,
+				66191006253ED87400F3DBF4 /* HeaderView */,
+				66191005253ED85200F3DBF4 /* SearchBar */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		66190FFC253ED68A00F3DBF4 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				66190FF8253ED4D700F3DBF4 /* CountryCodeCellProtocol.swift */,
+				66190FFD253ED69E00F3DBF4 /* CountryCodeHeaderProtocol.swift */,
+				66191002253ED7D700F3DBF4 /* CountryCodeSearchBarProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		66191005253ED85200F3DBF4 /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				6619100C253EDDED00F3DBF4 /* CountryCodeSearchBarView.swift */,
+			);
+			path = SearchBar;
+			sourceTree = "<group>";
+		};
+		66191006253ED87400F3DBF4 /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				66191007253ED8B700F3DBF4 /* CountryCodeHeaderView.swift */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
 		C23EA713E6F4941BAB88C813 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3764F4AEE09592D84E7A30B1 /* Pods_CountryCodePicker.framework */,
+				6619105C253F12C700F3DBF4 /* Pods_CountryCodePicker.framework */,
+				6619105E253F12C700F3DBF4 /* SnapKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -285,8 +338,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				661563D1253EBEC80072748B /* CountryCodeModel.swift in Sources */,
+				66190FF9253ED4D700F3DBF4 /* CountryCodeCellProtocol.swift in Sources */,
+				66190FFE253ED69E00F3DBF4 /* CountryCodeHeaderProtocol.swift in Sources */,
+				66191013253EFDA600F3DBF4 /* UITableViewExtensions.swift in Sources */,
 				661563E9253EC36D0072748B /* CodePickerUIConfiguration.swift in Sources */,
+				6619100D253EDDED00F3DBF4 /* CountryCodeSearchBarView.swift in Sources */,
 				6610952F253EC51300E7B22F /* Typealiases.swift in Sources */,
+				66191010253EEDA200F3DBF4 /* CountryCodeTableViewCell.swift in Sources */,
+				66191008253ED8B700F3DBF4 /* CountryCodeHeaderView.swift in Sources */,
+				66191003253ED7D700F3DBF4 /* CountryCodeSearchBarProtocol.swift in Sources */,
 				661563DC253EBFA10072748B /* CountryCodeService.swift in Sources */,
 				661563E6253EC2540072748B /* CountryCodePickerController.swift in Sources */,
 			);
@@ -348,6 +408,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(BUILD_PRODUCTS_DIR)/SnapKit";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -406,6 +467,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(BUILD_PRODUCTS_DIR)/SnapKit";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
