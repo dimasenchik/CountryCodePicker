@@ -62,11 +62,12 @@ final class CountryCodeSearchBarView: UIView, CountryCodeSearchBarProtocol {
         bodyView.layer.cornerRadius = Constants.bodyViewCornerRadius
         bodyView.backgroundColor = Constants.bodyViewBackgroundColor
         bodyView.snp.makeConstraints {
-            $0.top.bottom.left.right.equalToSuperview()
+            $0.top.bottom.left.right.equalToSuperview().inset(Constants.bodyViewInsets.top)
         }
         bodyView.addSubview(searchIconImageView)
         searchIconImageView.image = Constants.searchIconImage
         searchIconImageView.snp.makeConstraints {
+            $0.centerY.equalToSuperview()
             $0.left.equalToSuperview().inset(Constants.searchIconImageViewSideInset)
             $0.size.equalTo(Constants.searchIconImageViewSize)
         }
@@ -82,8 +83,9 @@ final class CountryCodeSearchBarView: UIView, CountryCodeSearchBarProtocol {
             $0.left.equalTo(searchIconImageView.snp.right).inset(-Constants.inputTextFieldSideInset)
         }
         bodyView.addSubview(clearTextButton)
-        clearTextButton.setImage(Constants.searchIconImage, for: .normal)
+        clearTextButton.setImage(Constants.clearTextIconImage, for: .normal)
         clearTextButton.snp.makeConstraints {
+            $0.centerY.equalToSuperview()
             $0.size.equalTo(Constants.clearTextButtonSize)
             $0.right.equalToSuperview().inset(Constants.clearTextButtonSideInset)
         }

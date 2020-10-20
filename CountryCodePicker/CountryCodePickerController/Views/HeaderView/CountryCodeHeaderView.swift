@@ -50,6 +50,7 @@ final class CountryCodeHeaderView: UIView, CountryCodeHeaderProtocol {
         closeButton.setImage(Constants.closeIconImage, for: .normal)
         closeButton.addTarget(self, action: #selector(didTapOnCloseButton), for: .touchUpInside)
         closeButton.snp.makeConstraints {
+            $0.centerY.equalToSuperview()
             $0.size.equalTo(Constants.closeButtonSize)
             $0.left.equalToSuperview().inset(Constants.closeButtonSideInset)
         }
